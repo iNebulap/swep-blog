@@ -5,6 +5,9 @@ const styles = {
     "html, body": {
       fontSize: "18px",
     },
+    "li": {
+      fontSize: "16px",
+    },
   },
 };
 
