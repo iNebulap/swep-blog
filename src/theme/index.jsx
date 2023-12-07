@@ -17,7 +17,18 @@ const fonts = {
 };
 
 const theme = extendTheme({
-  styles,
+  styles: {
+    global: (props) => ({
+      'html, body': {
+        fontSize: 'md',
+        color: props.colorMode === 'dark' ? 'white' : 'blue.600',
+        lineHeight: 'tall',
+      },
+      a: {
+        color: props.colorMode === 'dark' ? 'teal.300' : 'teal.500',
+      },
+    }),
+  },
   fonts,
 });
 

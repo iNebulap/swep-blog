@@ -1,3 +1,16 @@
+.banner ::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: rgb(128, 0, 0);
+  opacity: 0.3;
+}
+
+.banner-info {
+  text-align: center;
+}
+
 .remark-code-title {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;

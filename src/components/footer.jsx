@@ -24,7 +24,7 @@ const Footer = () => {
         maxW={MAX_WIDTH}
         mx="auto"
       >
-        <Box py="2">
+        {/* <Box py="2">
           {socialAccounts.map((item, index) => (
             <ChakraLink
               href={item.path}
@@ -39,7 +39,8 @@ const Footer = () => {
               </Button>
             </ChakraLink>
           ))}
-        </Box>
+        </Box> */}
+
         <Box py="2">
           <Text>
             Built with{" "}
@@ -47,35 +48,12 @@ const Footer = () => {
               ❤️
             </span>
             ,{" "}
-            <ChakraLink
-              href="https://nextjs.org/"
-              fontWeight="600"
-              _focus={{ outline: "none" }}
-              isExternal
-            >
-              Next.js
-            </ChakraLink>
-            ,{" "}
-            <ChakraLink
-              href="https://chakra-ui.com/"
-              fontWeight="600"
-              _focus={{ outline: "none" }}
-              isExternal
-            >
-              Chakra UI
-            </ChakraLink>
-            , Hosted in{" "}
-            <ChakraLink
-              href="http://vercel.com/"
-              fontWeight="600"
-              _focus={{ outline: "none" }}
-              isExternal
-            >
-              Vercel.
-            </ChakraLink>
+
+            Copyright 2023. Made by Bua, Punn, Jan
           </Text>
         </Box>
-        <Box py="2">
+
+        {/* <Box py="2">
           <ChakraLink
             href="https://github.com/imadatyatalah/nextjs-chakra-ui-portfolio-template"
             aria-label="source code"
@@ -85,7 +63,7 @@ const Footer = () => {
               <Icon as={FaCode} w="6" h="6" />
             </Button>
           </ChakraLink>
-        </Box>
+        </Box> */}
       </Box>
     </Box>
   );
